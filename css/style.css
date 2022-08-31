@@ -1,0 +1,554 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.container {
+    padding: 0 80px;
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+/* Promo section */
+
+
+.promo {
+    min-height: 387px;
+    background: url(../image/ServicePro.png) center center/cover no-repeat;
+    padding: 50px 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__wrap {
+    display: flex;
+    align-items: center;
+}
+
+.logo__img {
+    margin: auto;
+    align-items: center;
+}
+
+.logo__img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav__item {
+    margin: 0 25px;
+    opacity: 75%;
+    transition: opacity 0.5s ease;
+}
+
+.nav__item:hover {
+    opacity: 1;
+}
+
+.nav__item>a {
+    color: white;
+    font-weight: 700;
+}
+
+.promo__signup button {
+    padding: 6px 20px;
+    background: rgba(232, 76, 4, 0.2);
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    opacity: 85%;
+    transition: all 0.3s ease;
+}
+
+.promo__signup button:hover {
+    background: rgba(139, 1, 173, 0.2);
+    color: rgb(255, 200, 0);
+    opacity: 1;
+}
+
+.promo__signup button:active {
+    color: rgba(0, 153, 255, 0.2);
+}
+
+.promo__content {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promo__text {
+    width: 50%;
+}
+
+.promo__title {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 65px;
+}
+
+.promo__decription {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.promo__buttons>button {
+    padding: 6px 20px;
+    background: rgba(232, 76, 4, 0.1);
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    opacity: 90%;
+    transition: all 0.2s ease;
+    margin: 30px 100px;
+    padding: 10px 30px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.promo__buttons>button:hover {
+    background: rgba(139, 1, 173, 0.1);
+    color: rgb(255, 200, 0);
+    opacity: 1;
+}
+
+.promo__buttons>button:active {
+    color: rgba(0, 153, 255, 0.1);
+}
+
+.promo__video>video {
+    box-shadow: 0px 5px 5px;
+}
+
+
+/* useful section */
+
+
+.useful {
+    padding: 30px 100px 0px 100px;
+    min-height: 620px;
+}
+
+.description {
+    text-align: center;
+    width: 640px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.description__content {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.descr__item {
+    width: 30%;
+}
+
+.descr__title {
+    font-family: "Raleway", bold;
+    text-align: center;
+
+}
+
+.useful__descr {
+    font-family: "Raleway", bold;
+    text-align: center;
+}
+
+.descr__icon {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.connectbtn button {
+    padding: 6px 20px;
+    background: black;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px 30px;
+    font-size: 30px;
+}
+
+.connectbtn button:hover {
+    background: rgba(255, 200, 0);
+    color: rgb(255, 255, 255);
+}
+
+.connectbtn button:active {
+    color: rgba(0, 153, 255, 0.2);
+}
+
+
+/* animation section */
+
+
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+.wave {
+    position: relative;
+    background: linear-gradient(90deg, rgba(128, 31, 213, 0.5), rgba(21, 100, 211, 0.732), rgba(235, 75, 39, 0.7));
+    color: white;
+}
+
+.inner-wave {
+    height: 1vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.flex>h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.waves {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -7px;
+    min-height: 100px;
+    max-height: 150px;
+}
+
+.content {
+    position: relative;
+    height: 10vh;
+    text-align: center;
+    background-color: white;
+}
+
+/* Animation */
+
+.parallax>use {
+    animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+}
+
+.parallax>use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+}
+
+.parallax>use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+
+.parallax>use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+}
+
+.parallax>use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+}
+
+@keyframes move-forever {
+    0% {
+        transform: translate3d(-90px, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(85px, 0, 0);
+    }
+}
+
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+    .waves {
+        height: 40px;
+        min-height: 40px;
+    }
+
+}
+
+
+/* service section */
+
+
+.service {
+    padding: 30px 100px 50px 100px;
+}
+
+.tabs__item {
+    width: 800px;
+    height: 52px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px auto 20px auto;
+    padding: 0 25px 25px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.tabs__item_active {
+    height: 240px;
+    cursor: default;
+}
+
+.tabs__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin: 15px;
+}
+
+.tabs__wrap {
+    display: flex;
+    align-items: center;
+}
+
+.tabs__title {
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.tabs__img {
+    width: 35%;
+    height: 155px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.tabs__content {
+    display: flex;
+    align-items: center;
+}
+
+.tabs__text {
+    width: 65%;
+}
+
+
+/* comment__section */
+
+
+.comment {
+    min-height: 400px;
+    padding: 0px 0px;
+    background: url(../image/iPhone8+bg.jpg) center center/cover no-repeat;
+}
+
+.comment__wrap {
+    display: flex;
+    align-items: center;
+}
+
+.comment__title {
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    padding-right: 50px;
+}
+
+.comment__descr {
+    color: white;
+    padding: 0px 100px 0px 0px;
+}
+
+.comment__btn {
+    background: rgba(232, 76, 4, 0.2);
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    opacity: 85%;
+    transition: all 0.3s ease;
+    margin: 30px 60px;
+    padding: 10px 30px;
+    font-size: 20px;
+    margin-top: 80px;
+}
+
+.comment__btn:hover {
+    background: rgba(139, 1, 173, 0.2);
+    color: rgb(255, 200, 0);
+    opacity: 1;
+}
+
+.comment__btn:active {
+    color: rgba(0, 153, 255, 0.2);
+}
+
+.comment__icon {
+    width: 60px;
+    height: 60px;
+    box-shadow: 2px 2px 5px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.comment__name {
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.comment__text {
+    margin-top: 10px;
+}
+
+.comment__content {
+    box-shadow: 2px 2px 5px;
+    width: 650px;
+    height: 160px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.comment__item {
+    display: flex;
+    align-items: center;
+}
+
+/* contacts section */
+
+.contacts {
+    padding: 30px 100px 0px 100px;
+    min-height: 520px;
+}
+
+.contact__content {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.form__input {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(50, 50, 50);
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 20px;
+    margin: 0 20px;
+}
+
+.form__wrap {
+    margin-bottom: 20px;
+}
+
+.input:focus,
+textarea:focus {
+    border-color: coral;
+}
+
+.form__message {
+    width: 644px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid rgb(50, 50, 50);
+    padding: 20px 20px 20px 20px;
+    margin: 0 20px 20px;
+    resize: none;
+}
+
+.form__send {
+    display: flex;
+    justify-content: center;
+}
+
+.submit__btn {
+    padding: 3px 10px;
+    background: black;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 7px 23px;
+    font-size: 20px;
+}
+
+.submit__btn:hover {
+    background: rgba(255, 200, 0);
+    color: rgb(255, 255, 255);
+}
+
+.submit__btn:active {
+    color: rgba(0, 153, 255, 0.2);
+}
+
+
+/* footer section */
+
+
+.footer {
+    background: url(../image/iPhone8+footer.jpg) center center/cover no-repeat;
+    padding: 30px 0px;
+}
+
+.footer__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    margin: auto;
+}
+
+.footer__logo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+
+
